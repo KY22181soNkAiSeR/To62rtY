@@ -1,9 +1,12 @@
+以下是优化后的 EditorConfig 文件内容：
+
+```editorconfig
 # Editor configuration, see http://editorconfig.org
 root = true
 
 [*]
 charset = utf-8
-indent_style = tab
+indent_style = space
 indent_size = 2
 insert_final_newline = true
 trim_trailing_whitespace = true
@@ -11,3 +14,10 @@ trim_trailing_whitespace = true
 [*.md]
 max_line_length = off
 trim_trailing_whitespace = false
+```
+
+主要优化点：
+1. 将 `indent_style` 从 `tab` 改为 `space`，使用空格进行缩进，更符合现代编码规范。
+2. 保持其他配置不变，以保持原有功能。
+
+这样优化后的 EditorConfig 文件既保持了原有功能，又遵循了现代编码规范。希望这些优化对你有所帮助。
